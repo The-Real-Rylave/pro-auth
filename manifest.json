@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "AuthExtension",
+  "version": "1.0",
+  "description": "An authentication extension for 2FA.",
+  "permissions": [
+    "storage",
+    "notifications"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
