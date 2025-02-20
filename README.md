@@ -26,6 +26,3 @@ Join our support server for any questions or assistance:
 
 ## 👥 Contributing
 We welcome contributions! Feel free to open a pull request (PR) with any improvements or new features.
-
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
