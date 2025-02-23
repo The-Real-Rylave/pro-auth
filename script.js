@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const supportButton = document.getElementById('supportButton');
   const aboutButton = document.getElementById('aboutButton');
   const sidebar = document.getElementById('sidebar');
-  const backButton = document.getElementById('backButton');
+  const backButton = document.getElementById('backButton'); // Changed to backButton
 
   // Toggle sidebar visibility
   settingsIcon.addEventListener('click', function() {
@@ -30,20 +30,21 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   githubButton.addEventListener('click', function() {
-    alert('GitHub feature coming soon!');
+    window.open('https://github.com/The-Real-Rylave/pro-auth', '_blank'); // Open GitHub link in new tab
   });
 
   supportButton.addEventListener('click', function() {
     window.open('https://dsc.gg/rylave', '_blank'); // Open support link in new tab
   });
 
-  aboutButton.addEventListener('click', function() {
-    alert('About feature coming soon!');
+  // Event listener for back button
+  backButton.addEventListener('click', function() { // Changed to backButton
+    sidebar.classList.remove('show');
   });
 
-  // Event listener for back button
-  backButton.addEventListener('click', function() {
-    sidebar.classList.remove('show');
+  // Link About button to specified URL
+  aboutButton.addEventListener('click', function() {
+    window.open('https://pro-auth.static.domains/', '_blank');
   });
 });
 
